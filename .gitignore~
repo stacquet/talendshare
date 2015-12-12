@@ -1,5 +1,5 @@
 .JETEmitters/
 .Java/
 .metadata/
-TALENDSHARE/talend.project
-TALENDSHARE/.project
+#TALENDSHARE/talend.project
+#TALENDSHARE/.project
