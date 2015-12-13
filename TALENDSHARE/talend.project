@@ -82,6 +82,17 @@
         <elementParameter xmi:id="_oOwb1qCuEeWU0oRCjrGVTA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
       </parameters>
     </implicitContextSettings>
+    <ItemsRelations xmi:id="_uRf0wKGHEeWI2JEI98NxWQ">
+      <baseItem xmi:id="_uRf0waGHEeWI2JEI98NxWQ" id="_6c94sKCuEeWU0oRCjrGVTA" version="0.1" type="job"/>
+      <relatedItems xmi:id="_uRf0wqGHEeWI2JEI98NxWQ" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uRf0w6GHEeWI2JEI98NxWQ" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uRf0xKGHEeWI2JEI98NxWQ" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uRf0xaGHEeWI2JEI98NxWQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uRf0xqGHEeWI2JEI98NxWQ" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uRf0x6GHEeWI2JEI98NxWQ" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uRf0yKGHEeWI2JEI98NxWQ" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uRf0yaGHEeWI2JEI98NxWQ" id="TalendDataGenerator" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_ms4ZYKCuEeWU0oRCjrGVTA" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="ok"/>
     <migrationTask xmi:id="_ms4ZYaCuEeWU0oRCjrGVTA" id="org.talend.designer.core.ui.preferences.migration.ChangeOracleVersionForProjectSetting" breaks="5.2.0" version="5.2.1" status="ok"/>
     <migrationTask xmi:id="_ms4ZYqCuEeWU0oRCjrGVTA" id="org.talend.repository.model.migration.UpdateExistentMigrationTasksToAdaptNewMigrationSystemMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
@@ -360,4 +371,5 @@
     <migrationTask xmi:id="_ms6OlqCuEeWU0oRCjrGVTA" id="org.talend.designer.esb.webservice.ConsumerFaultResponseMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_mrzbUKCuEeWU0oRCjrGVTA" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+  <TalendProperties:User xmi:id="_atTcYaGHEeWI2JEI98NxWQ" login="tata@tata.fr" password="D41D8CD98F00B204E9800998ECF8427E"/>
 </xmi:XMI>
