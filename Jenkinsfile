@@ -8,7 +8,16 @@ pipeline {
     }
     stage('sleep2') {
       steps {
-        sleep 5
+        parallel(
+          "sleep2": {
+            sleep 5
+            
+          },
+          "echo": {
+            input(message: 'tata', id: 'tata', ok: 'tata')
+            
+          }
+        )
       }
     }
   }
