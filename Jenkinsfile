@@ -25,6 +25,11 @@ pipeline {
       steps {
         echo 'suite'
         sleep 2
+        waitUntil() {
+          echo 'attente de condition'
+          sh 'dir'
+        }
+        
       }
     }
   }
