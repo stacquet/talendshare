@@ -15,9 +15,16 @@ pipeline {
           },
           "echo": {
             input(message: 'tata', id: 'tata', ok: 'tata')
+            echo 'fini2'
             
           }
         )
+      }
+    }
+    stage('suite') {
+      steps {
+        echo 'suite'
+        sleep 2
       }
     }
   }
